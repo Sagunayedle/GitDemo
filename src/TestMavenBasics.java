@@ -38,6 +38,8 @@ public class TestMavenBasics {
      .body("msg", equalTo("Address successfully updated"));   
      
      System.out.println("Thank you");
+     
+     System.out.println("End");
 
 ////get update
 //
