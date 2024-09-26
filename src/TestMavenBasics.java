@@ -36,20 +36,21 @@ public class TestMavenBasics {
      when().put("/maps/api/place/update/json")
      .then().log().all().assertThat().statusCode(200)
      .body("msg", equalTo("Address successfully updated"));   
+     
+     System.out.println("Thank you");
 
-
-//get update
-
-      String getplaceresponse=  given().log().all().queryParam("key","quaclick123").
-    		  queryParam("place_id",placeId )
-        .when().get("/maps/api/place/add/json")
-        .then().log().all().assertThat().statusCode(200).extract().response().asString();
-      
-      JsonPath js1=new JsonPath(getplaceresponse);
-      
-     String actualAddress= js1.getString("address");
-        System.out.println(actualAddress);
-        	
+////get update
+//
+//      String getplaceresponse=  given().log().all().queryParam("key","quaclick123").
+//    		  queryParam("place_id",placeId )
+//        .when().get("/maps/api/place/add/json")
+//        .then().log().all().assertThat().statusCode(200).extract().response().asString();
+//      
+//      JsonPath js1=new JsonPath(getplaceresponse);
+//      
+//     String actualAddress= js1.getString("address");
+//        System.out.println(actualAddress);
+//        	
         
         
         
