@@ -40,6 +40,8 @@ public class TestMavenBasics {
      System.out.println("Thank you");
      
      System.out.println("End");
+     
+     System.out.println("Thnaks everypne");
 
 ////get update
 //
