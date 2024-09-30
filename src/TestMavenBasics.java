@@ -42,6 +42,11 @@ public class TestMavenBasics {
      System.out.println("End");
      
      System.out.println("Thnaks everypne");
+     
+     System.out.println("New line1 added here");
+     System.out.println("New line2 added here");
+     
+     
 
 ////get update
 //
