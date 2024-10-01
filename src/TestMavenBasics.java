@@ -46,6 +46,9 @@ public class TestMavenBasics {
      System.out.println("New line1 added here");
      System.out.println("New line2 added here");
      
+     System.out.println("Check develope branch 1");
+     System.out.println("Develop branch two");
+     
      
 
 ////get update
