@@ -10,6 +10,9 @@ public class TestMavenBasics {
 	public static void main(String[] args) {
         // Base URI
         RestAssured.baseURI = "https://rahulshettyacademy.com";
+        
+        System.out.println("API started from here");
+        
 
         // Sending the request
      String response=   given().log().all()
